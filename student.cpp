@@ -1,6 +1,6 @@
 #include "student.h"
 
-Student::Student(const string& filename)
+/*Student::Student(const string& filename)
     : Person(), major(""), password(""), club(""), collegeName(""), gpa(0.0), studentID("")
 {
     ifstream file(filename);
@@ -22,6 +22,11 @@ Student::Student(const string& filename)
     else{
         cerr << "There has been an error getting information. Try again later" << endl;
     }
+}*/
+
+
+Student::Student(){
+
 }
 
 

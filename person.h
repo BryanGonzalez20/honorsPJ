@@ -9,7 +9,7 @@ class Person
 protected:
     string firstName;
     string lastName;
-    string email;
+
 
 
 
@@ -19,11 +19,11 @@ public:
 
     void setFirstName(string firstName);
     void setLastName(string lastName);
-    void setEmail(string email);
+
 
     string getFirstName();
     string getLastName();
-    string getEmail();
+
 
 };
 

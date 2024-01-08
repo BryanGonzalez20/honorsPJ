@@ -1,7 +1,8 @@
 #ifndef INTERNSHIPS_H
 #define INTERNSHIPS_H
+#include "opportunities.h"
 
-class Internships
+class Internships : public Opportunities
 {
 public:
     Internships();

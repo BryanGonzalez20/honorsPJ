@@ -31,6 +31,10 @@ set(PROJECT_SOURCES
         opportunities.cpp
         internships.h
         internships.cpp
+        register.h
+        register.cpp
+        login.h
+        login.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -44,6 +48,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         staff.h staff.cpp
         opportunities.h opportunities.cpp
         internships.h internships.cpp
+        register.h register.cpp
+        login.h login.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET QtProject APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

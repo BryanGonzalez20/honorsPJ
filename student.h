@@ -19,7 +19,7 @@ private:
 
 public:
     // Constructor
-    Student(const string& filename);
+    Student();
     // Getters
     string getPassword();
     string getMajor();

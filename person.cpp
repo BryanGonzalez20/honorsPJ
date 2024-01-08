@@ -7,7 +7,7 @@
 
 }*/
 
-Person::Person(): firstName(""), lastName(""), email(""){
+Person::Person(): firstName(""), lastName(""){
 
 }
 
@@ -20,9 +20,7 @@ void Person::setLastName(string lastName){
     this -> lastName = lastName;
 
 }
-void Person::setEmail(string email){
-    this -> email = email;
-}
+
 
 
 string Person::getFirstName(){
@@ -35,10 +33,6 @@ string Person::getLastName(){
 
 }
 
-string Person::getEmail(){
-    return email;
-
-}
 
 
 
